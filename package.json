@@ -5,8 +5,8 @@
   "main": "index.js",
   "preferGlobal": true,
   "scripts": {
-    "etczense": "bin/zense",
-    "etczense-init": "bin/zense-init"
+    "zense": "bin/zense",
+    "zense-init": "bin/zense-init"
   },
   "repository": {
     "type": "git",
