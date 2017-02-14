@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "A simple CLI for Ethicall corporation Test Frontend projects",
   "main": "index.js",
+  "bin":{
+      "zense":"bin/zense"
+  },
   "preferGlobal": true,
   "scripts": {
     "zense": "bin/zense",
