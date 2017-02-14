@@ -1,0 +1,44 @@
+{
+  "name": "zense-cli",
+  "version": "0.0.1",
+  "description": "A simple CLI for Ethicall corporation Test Frontend projects",
+  "main": "index.js",
+  "preferGlobal": true,
+  "scripts": {
+    "etczense": "bin/zense",
+    "etczense-init": "bin/zense-init"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HSUCHING/zense-cli.git"
+  },
+  "keywords": [
+    "zen-cli",
+    "zen",
+    "frontend"
+  ],
+  "author": "Hsuching",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.1.4",
+    "chalk": "^1.1.3",
+    "commander": "^2.9.0",
+    "consolidate": "^0.14.5",
+    "download-git-repo": "^0.2.1",
+    "handlebars": "^4.0.6",
+    "inquirer": "^3.0.1",
+    "metalsmith": "^2.3.0",
+    "ora": "^1.1.0",
+    "read-metadata": "^1.0.0",
+    "semver": "^5.3.0",
+    "tildify": "^1.2.0",
+    "user-home": "^2.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/HSUCHING/zense-cli/issues"
+  },
+  "homepage": "https://github.com/HSUCHING/zense-cli#readme",
+  "engines": {
+    "node": ">=4.0.0"
+  }
+}
