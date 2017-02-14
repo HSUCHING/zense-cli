@@ -1,5 +1,6 @@
 #ignore these files
 .idea
+node_modules
 */node_modules
 */build
 
